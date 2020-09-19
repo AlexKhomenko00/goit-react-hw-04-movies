@@ -1,0 +1,30 @@
+.moviesList {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.moviesList__shortInfo {
+  margin-left: 10px;
+}
+
+.moviesList__link {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.moviesList__link:hover {
+  color: darkturquoise;
+}
+
+.moviesList__item {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}

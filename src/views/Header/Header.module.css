@@ -1,0 +1,31 @@
+.nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px gray solid;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.navBtn {
+  font-weight: 700;
+  font-size: 24px;
+  color: black;
+  text-decoration: none;
+}
+
+.navBtnActive {
+  composes: navBtn;
+  color: #00b4cc;
+  position: relative;
+}
+.navBtnActive::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 3.5px;
+  margin: 5px auto 15px;
+  background-color: #00b4cc;
+}
